@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<script src="script.js" rel="text/javascript"></script>
+</head>
+<body>
+<div class="container" style="margin: 0 auto;width: 175px;height: 350px;padding: 1em;">
+<h1 class="title">Calculator : </h1>
+<form style="padding:0px;" action="">
+<input type="text" id="txbox" style="width:155px;margin-bottom:10px;height:20px;font-weight:bold;text-align:right;">
+<input type="button" id="1" onclick="f1()" value="1" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="2" onclick="f2()" value="2" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="3" onclick="f3()" value="3" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="+" onclick="fadd()" value="+" style="width:40px;height:50px;font-weight:bold;"><br>
+<input type="button" id="4" onclick="f4()" value="4" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="5" onclick="f5()" value="5" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="6" onclick="f6()" value="6" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="-" onclick="fsub()" value="-" style="width:40px;height:50px;font-weight:bold;"><br>
+<input type="button" id="7" onclick="f7()" value="7" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="8" onclick="f8()" value="8" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="9" onclick="f9()" value="9" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="*" onclick="fmul()" value="*" style="width:40px;height:50px;font-weight:bold;"><br>
+<input type="button" id="." onclick="fdot()" value="." style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="0" onclick="f0()" value="0" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" id="/" onclick="fdiv()" value="/" style="margin-right:-4px;width:40px;height:50px;font-weight:bold;">
+<input type="button" value="C" id="C" onclick="cl()" style="width:40px;height:50px;font-weight:bold;">
+<input type="button" value="=" id="=" onclick="result()" style="width:160px;height:40px;font-weight:bold;">
+</form>
+</div>
+</body>
+</html>
